@@ -137,7 +137,7 @@ function ratioTwoAdapt() {
   if (isNaN(fm) == true) fm = 0;
 
   var ratio = 0.4;
-  var maxProd = 10000;
+  var maxProd = 20000;
   var minProd = 200;
   var nbrb = parseFloat (am) * parseFloat (ratio) - parseFloat (cm) - parseFloat (bm); // Платеж НБ РБ
   var bank = parseFloat (am) - parseFloat (bm) - parseFloat (cm) - parseFloat (bpmk) * (1 + 0.2 * parseFloat (dm)); // Платеж БАНК
@@ -183,7 +183,7 @@ function maxAmoutZeroFourTwoAdapt() {
    if (isNaN(fm) == true) fm = 0;
  
    var ratio = 0.4;
-   var maxProd = 10000;
+   var maxProd = 20000;
    var minProd = 200;
    var nbrb = parseFloat (am) * parseFloat (ratio) - parseFloat (cm) - parseFloat (bm); // Платеж НБ РБ
    var bank = parseFloat (am) - parseFloat (bm) - parseFloat (cm) - parseFloat (adbpmk) * (1 + 0.2 * parseFloat (dm)); // Платеж БАНК
@@ -224,7 +224,7 @@ function maxAmoutZeroFourTwoAdapt() {
   if (isNaN(fms) == true) fms = 0;
 
   var ratio = 0.6;
-  var maxProd = 10000;
+  var maxProd = 20000;
   var minProd = 200;
   var nbrb = parseFloat (ams) * parseFloat (ratio) - parseFloat (cms) - parseFloat (bms); // Платеж НБ РБ
   var bank = parseFloat (ams) - parseFloat (bms) - parseFloat (cms) - parseFloat (bpmka) * (1 + 0.2 * parseFloat (dms)); // Платеж БАНК
@@ -269,7 +269,7 @@ function maxAmoutZeroFourThreeAdapt() {
    if (isNaN(fms) == true) fms = 0;
  
    var ratio = 0.6;
-   var maxProd = 10000;
+   var maxProd = 20000;
    var minProd = 200;
    var nbrb = parseFloat (ams) * parseFloat (ratio) - parseFloat (cms) - parseFloat (bms); // Платеж НБ РБ
    var bank = parseFloat (ams) - parseFloat (bms) - parseFloat (cms) - parseFloat (adbpmka) * (1 + 0.2 * parseFloat (dms)); // Платеж БАНК
